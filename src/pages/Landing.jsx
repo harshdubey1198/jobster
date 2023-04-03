@@ -1,5 +1,5 @@
 import React from "react";
-import main from "../assets/images/main.svg";
+import main from "../assets/images/main.jpg";
 import styled from "styled-components";
 import { Logo } from "../components";
 import { Link, Navigate } from "react-router-dom";
@@ -16,11 +16,8 @@ const Landing = () => {
             job <span>tracking</span> app
           </h1>
           <p>
-            I'm baby beard enamel pin YOLO helvetica, normcore forage
-            post-ironic unicorn bodega boys pinterest iceland hammock. Gochujang
-            intelligentsia cronut pour-over slow-carb raw denim seitan 3 wolf
-            moon williamsburg single-origin coffee chia adaptogen pug.
-            Gluten-free green juice tote bag chia tofu trust fund.
+           Hello , Forks this website is build for job searching.
+          Dedicated to helping you find your dream job. Our platform is designed to connect job seekers with employers and provide a user-friendly experience. We understand the challenges that come with finding the right job, and our mission is to make the process as seamless and efficient as possible. Whether you are just starting your career or looking to take the next step, our website offers a variety of job opportunities and resources to help you succeed.
           </p>
           <Link to="/register" className="btn btn-hero">
             Login/Register
